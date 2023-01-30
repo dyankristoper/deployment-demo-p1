@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+main {
+    padding-top: 60px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: rgb(121, 117, 117);
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navBar ul {
+    display: flex;
+}
+.navBar .link {
+    padding: 0 20px;
+    color: white;
+}
+
+.ownLogo {
+    margin-top: 5px;
+}
+.introContainerimg img{
+    height: 370px;
+    margin-left: 15px;
+}
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    background-color: rgb(228, 228, 228);
+}
+.introContainertxt {
+    text-align: end;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.introduction span {
+    font-weight: 700;
+    color: rgb(2, 2, 116);
+    font-family: Courgette, sans-serif;
+    font-size: 40px;
+}
+.containerAbout {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 400px;
+    margin-top: 15px;
+}
+.skills img {
+    height: 150px;
+}
+.skills {
+    text-align: center;
+    border-left: 2px solid black;
+}
+.codeLang {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.skills a p {
+    margin-top: 20px;
+    background-color: rgb(46, 46, 163);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a {
+    color: white;
+}
+.aboutMe {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.project img {
+    height: 150px;
+    width: 210px;
+    border-radius: 5px;
+}
+.project {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+    text-align: center;
+}
+.titleProject {
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    padding-top: 10px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(121, 117, 117);
+    height: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+footer ul li {
+    display: inline-block;
+    margin:
+}
+.gitPhoto {
+    height: 40px;
+    margin: 5px;
+}
+.navBar img {
+    height: 50px;
+    width: 50px;
+}

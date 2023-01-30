@@ -1,0 +1,36 @@
+@media only screen and (max-width: 991px) {
+    .introduction {
+        height: auto;
+    }
+    .introContainertxt {
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }
+    .introContainerimg img {
+        height: 320px;
+    }
+    .navBar {
+        padding: 0 1rem;
+    }
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .introContainertxt {
+        font-size: 1.25rem;
+        margin-top: 80px;
+    }
+    .introContainerimg img {
+        height: 290px;
+    }
+    
+   .containerAbout {
+        font-size: 0.9rem;
+   }
+}
