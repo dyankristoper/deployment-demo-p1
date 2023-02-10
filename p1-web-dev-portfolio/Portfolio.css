@@ -81,16 +81,19 @@ main {
 a {
     color: white;
 }
+
 .aboutMe {
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
 }
+
 .project img {
     height: 150px;
     width: 210px;
     border-radius: 5px;
 }
+
 .project {
     background-color: rgb(228, 228, 228);
     display: flex;
@@ -98,11 +101,13 @@ a {
     padding: 10px 15px;
     text-align: center;
 }
+
 .titleProject {
     text-align: center;
     background-color: rgb(228, 228, 228);
     padding-top: 10px;
 }
+
 .forms {
     display: flex;
     flex-direction: column;
@@ -120,14 +125,16 @@ footer {
     color: white;
     padding-top: 15px;
 }
+
 footer ul li {
     display: inline-block;
-    margin:
 }
+
 .gitPhoto {
     height: 40px;
     margin: 5px;
 }
+
 .navBar img {
     height: 50px;
     width: 50px;
